@@ -31,19 +31,26 @@ export function ContactForm() {
     setForm((prev) => ({ ...prev, status: "loading" }))
 
     try {
-      // Simulate form submission - in production, use formspree or your backend
-      await new Promise((resolve) => setTimeout(resolve, 1000))
-
-      setForm({
-        name: "",
-        email: "",
-        message: "",
-        status: "success",
+      const response = await fetch("/api/send-mail", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          name: form.name,
+          email: form.email,
+          message: form.message,
+        }),
       })
 
-      setTimeout(() => {
-        setForm((prev) => ({ ...prev, status: "idle" }))
-      }, 3000)
+      if (response.ok) {
+        setForm({ name: "", email: "", message: "", status: "success" })
+        setTimeout(() => {
+          setForm((prev) => ({ ...prev, status: "idle" }))
+        }, 3000)
+      } else {
+        throw new Error("Failed to send email")
+      }
     } catch (error) {
       setForm((prev) => ({ ...prev, status: "error" }))
       setTimeout(() => {
@@ -77,7 +84,7 @@ export function ContactForm() {
           name="name"
           value={form.name}
           onChange={handleChange}
-          placeholder="John Doe"
+          placeholder="e.g. Himanshu Raj"
           required
           className="w-full px-4 py-3 rounded-lg bg-card border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all duration-300"
         />
@@ -94,7 +101,7 @@ export function ContactForm() {
           name="email"
           value={form.email}
           onChange={handleChange}
-          placeholder="john@example.com"
+          placeholder="e.g. himanshuraj6771@gmail.com"
           required
           className="w-full px-4 py-3 rounded-lg bg-card border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all duration-300"
         />
@@ -110,7 +117,7 @@ export function ContactForm() {
           name="message"
           value={form.message}
           onChange={handleChange}
-          placeholder="Tell me about your project..."
+          placeholder="Message..."
           rows={6}
           required
           className="w-full px-4 py-3 rounded-lg bg-card border border-border text-foreground placeholder-muted-foreground focus:outline-none focus:border-primary focus:ring-1 focus:ring-primary transition-all duration-300 resize-none"
