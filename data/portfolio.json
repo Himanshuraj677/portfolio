@@ -1,0 +1,343 @@
+{
+  "hero": {
+    "name": "Himanshu Raj",
+    "role": "Full-Stack Developer",
+    "tagline": "Designing Scalable, Secure, and Intelligent Web Applications",
+    "cta": [
+      { "label": "View Projects", "href": "/projects" },
+      {
+        "label": "Download Resume",
+        "href": "https://drive.google.com/file/d/your-resume-id"
+      },
+      { "label": "Contact Me", "href": "/contact" }
+    ]
+  },
+  "about": {
+    "summary": "I'm a results-driven Full-Stack Developer skilled in React, Next.js, Node.js, and PostgreSQL. I specialize in building scalable web applications, secure authentication systems, and microservices-based architectures. I enjoy solving complex technical challenges, optimizing performance, and crafting seamless user experiences that bring ideas to life.",
+    "experience": "2+ years",
+    "location": "Bengaluru, India",
+    "facts": [
+      "Developed and deployed 15+ microservices and APIs",
+      "Built 3+ full-stack production-grade web apps",
+      "Enhanced backend efficiency and reduced API latency by 30%"
+    ]
+  },
+  "skills": [
+    {
+      "name": "C++",
+      "level": 4,
+      "category": "Languages",
+      "description": "Strong foundation in object-oriented programming, STL, and data structures & algorithms",
+      "icon": "cplusplus"
+    },
+    {
+      "name": "Java",
+      "level": 4,
+      "category": "Languages",
+      "description": "Core Java, OOP principles, and backend service logic implementation",
+      "icon": "java"
+    },
+    {
+      "name": "Python",
+      "level": 3,
+      "category": "Languages",
+      "description": "Scripting, automation, and basic machine learning workflows",
+      "icon": "python"
+    },
+    {
+      "name": "JavaScript",
+      "level": 5,
+      "category": "Languages",
+      "description": "Advanced ES6+ features, asynchronous programming, and frontend logic handling",
+      "icon": "javascript"
+    },
+    {
+      "name": "TypeScript",
+      "level": 5,
+      "category": "Languages",
+      "description": "Type safety, interfaces, generics, and large-scale app structuring with Next.js and tRPC",
+      "icon": "typescript"
+    },
+    {
+      "name": "React.js",
+      "level": 5,
+      "category": "Frontend",
+      "description": "Component-driven development, hooks, context API, and performance optimization",
+      "icon": "react"
+    },
+    {
+      "name": "Next.js",
+      "level": 5,
+      "category": "Frontend",
+      "description": "App Router, SSR, SSG, API routes, server actions, and middleware integration",
+      "icon": "nextjs"
+    },
+    {
+      "name": "Tailwind CSS",
+      "level": 5,
+      "category": "Frontend",
+      "description": "Responsive layouts, dark themes, custom utilities, and modern UI design",
+      "icon": "tailwind"
+    },
+    {
+      "name": "Node.js",
+      "level": 4,
+      "category": "Backend",
+      "description": "Server-side logic, file handling, and scalable application architecture",
+      "icon": "nodejs"
+    },
+    {
+      "name": "Express.js",
+      "level": 4,
+      "category": "Backend",
+      "description": "RESTful API design, middleware, and request handling for microservices",
+      "icon": "express"
+    },
+    {
+      "name": "Microservices",
+      "level": 4,
+      "category": "Backend",
+      "description": "Modular service design, inter-service communication, and API gateway configuration",
+      "icon": "microservices"
+    },
+    {
+      "name": "MySQL",
+      "level": 4,
+      "category": "Database",
+      "description": "Relational schema design, joins, and optimized SQL queries",
+      "icon": "mysql"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 4,
+      "category": "Database",
+      "description": "Advanced queries, indexing, constraints, and schema management",
+      "icon": "postgresql"
+    },
+    {
+      "name": "MongoDB",
+      "level": 4,
+      "category": "Database",
+      "description": "Document-based schema design, aggregation pipelines, and CRUD operations",
+      "icon": "mongodb"
+    },
+    {
+      "name": "Prisma",
+      "level": 5,
+      "category": "Tools/ORM",
+      "description": "Type-safe ORM, schema modeling, and seamless integration with Next.js and PostgreSQL",
+      "icon": "prisma"
+    },
+    {
+      "name": "Sequelize",
+      "level": 3,
+      "category": "Tools/ORM",
+      "description": "ORM for SQL databases, associations, and query optimization",
+      "icon": "sequelize"
+    },
+    {
+      "name": "RabbitMQ",
+      "level": 3,
+      "category": "Tools/ORM",
+      "description": "Message brokering, async task handling, and microservice communication",
+      "icon": "rabbitmq"
+    },
+    {
+      "name": "Docker",
+      "level": 4,
+      "category": "DevOps",
+      "description": "Containerization, image optimization, and deployment across environments",
+      "icon": "docker"
+    },
+    {
+      "name": "Nginx",
+      "level": 4,
+      "category": "DevOps",
+      "description": "Reverse proxy, load balancing, and configuration for microservices and Next.js apps",
+      "icon": "nginx"
+    },
+    {
+      "name": "Git & GitHub",
+      "level": 5,
+      "category": "Tools",
+      "description": "Version control, branching, collaboration, and CI/CD pipelines",
+      "icon": "git"
+    },
+    {
+      "name": "Postman",
+      "level": 5,
+      "category": "Tools",
+      "description": "API testing, automation, and documentation for REST and tRPC APIs",
+      "icon": "postman"
+    },
+    {
+      "name": "Azure VM",
+      "level": 4,
+      "category": "Cloud & Deployment",
+      "description": "Server deployment, environment setup, and scaling microservices on Azure VMs",
+      "icon": "azure"
+    },
+    {
+      "name": "Cloud-based Architecture",
+      "level": 4,
+      "category": "Cloud & Deployment",
+      "description": "Designing scalable distributed systems using containerized and modular services",
+      "icon": "cloud"
+    },
+    {
+      "name": "Authentication & Authorization",
+      "level": 5,
+      "category": "Concepts",
+      "description": "RBAC, ReBAC, JWT-based authentication, and secure API access control",
+      "icon": "auth"
+    },
+    {
+      "name": "Agile Development",
+      "level": 4,
+      "category": "Concepts",
+      "description": "Collaborative sprint planning, version tracking, and iterative development",
+      "icon": "agile"
+    },
+    {
+      "name": "API Design",
+      "level": 5,
+      "category": "Concepts",
+      "description": "REST and tRPC design principles, data validation, and error handling",
+      "icon": "api"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Baasthan Estate Pvt. Ltd.",
+      "role": "Full Stack Developer",
+      "duration": "July 2025 – Aug 2025",
+      "achievements": [
+        "Designed and launched PG Owner onboarding workflows with secure login, password reset, and email verification — supporting onboarding of 500+ PG owners in the first release",
+        "Built and optimized 15+ backend APIs for user creation and access control, reducing system errors by 30% and handling 10,000+ API calls per day",
+        "Improved backend performance and fixed 50+ bugs, cutting API response time from 1.2s to 800ms",
+        "Maintained a clean, scalable codebase using Git version control and conducted 20+ peer code reviews to ensure high-quality standards",
+        "Collaborated across 4 Agile sprints, accelerating feature delivery by 20% and achieving 100% sprint goals"
+      ],
+      "techStack": [
+        "React.js",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "Docker",
+        "Git"
+      ]
+    },
+    {
+      "company": "Atria Foundation",
+      "role": "Full Stack Developer",
+      "duration": "Sep 2024 – Dec 2024",
+      "achievements": [
+        "Developed a digital discount card platform serving 3,000+ users and processing 1,500+ card transactions within 2 months of launch",
+        "Built 30+ responsive UI components with React.js, improving mobile engagement by 40% and reducing bounce rate by 25%",
+        "Implemented secure authentication and authorization handling 5,000+ monthly logins with 100% security compliance",
+        "Optimized SQL database schemas for 50K+ records, improving query speed by 35% and reducing server load",
+        "Created and integrated 20+ REST APIs with Node.js and Express.js, achieving 99.9% uptime and seamless service communication"
+      ],
+      "techStack": [
+        "React.js",
+        "Node.js",
+        "Express.js",
+        "MySQL",
+        "PostgreSQL",
+        "Tailwind CSS"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "blog-platform",
+      "title": "Blogging Platform",
+      "description": "A microservices-based scalable blogging platform built with Node.js, Next.js, RabbitMQ, and PostgreSQL — deployed on Azure VM using Nginx.",
+      "longDescription": "Designed and deployed a production-ready blogging platform featuring 3+ microservices (Auth, Posts, and Notifications). Implemented secure RBAC & ReBAC access control, token-based authentication, and message-driven architecture with RabbitMQ. The system serves 20K–30K monthly users, supports 5K+ daily API requests, and provides features like blogs, bookmarks, likes, and comments with markdown-based editing.",
+      "skillsUsed": [
+        "Next.js",
+        "Node.js",
+        "RabbitMQ",
+        "PostgreSQL",
+        "Docker",
+        "Nginx",
+        "Azure VM"
+      ],
+      "github": "https://github.com/Himanshuraj677/blog-platform",
+      "liveDemo": "https://blog.hcodes.tech/",
+      "blogPost": "https://blog.hcodes.tech/posts/blog-platform",
+      "image": "/projects/blog-platform.png",
+      "featured": true
+    },
+    {
+      "id": "codecatalyst",
+      "title": "Codecatalyst",
+      "description": "A cloud-based automated code testing platform enabling multi-case execution in isolated environments using Docker.",
+      "longDescription": "Codecatalyst is a full-stack application designed to streamline automated code testing. The backend, built with Node.js and tRPC, orchestrates containerized environments for executing multiple test cases concurrently. Drizzle ORM manages a structured MySQL database, while the frontend (Next.js + TypeScript) provides a clean, responsive UI for users to submit and monitor test runs. The system is optimized for scalability, modularity, and performance in distributed setups.",
+      "skillsUsed": [
+        "Next.js",
+        "TypeScript",
+        "Node.js",
+        "tRPC",
+        "Drizzle ORM",
+        "MySQL",
+        "Docker"
+      ],
+      "github": "https://github.com/Himanshuraj677/codecatalyst",
+      "liveDemo": "https://codecatalyst.hcodes.tech/",
+      "blogPost": "https://blog.hcodes.tech/posts/codecatalyst",
+      "image": "/projects/codecatalyst.png",
+      "featured": true
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology - Information Science and Engineering",
+      "institution": "Atria Institute of Technology",
+      "duration": "Oct 2022 – Present",
+      "location": "Bengaluru, India",
+      "score": "CGPA: 8.71",
+      "logo": "/education/atria.png"
+    },
+    {
+      "degree": "Intermediate (12th)",
+      "institution": "Ekalavya Educational Complex",
+      "duration": "2019 – 2021",
+      "location": "Patna, Bihar",
+      "score": "Percentage: 91.4%",
+      "logo": "/education/ekalavya.png"
+    },
+    {
+      "degree": "Matriculation (10th)",
+      "institution": "Ekalavya Educational Complex",
+      "duration": "2018 – 2019",
+      "location": "Patna, Bihar",
+      "score": "Percentage: 91.6%",
+      "logo": "/education/ekalavya.png"
+    }
+  ],
+  "contact": {
+    "email": "himanshuraj6771@gmail.com",
+    "phone": "+91-9523643043",
+    "social": [
+      {
+        "name": "LinkedIn",
+        "url": "https://linkedin.com/in/himanshu-raj-ba7643207",
+        "icon": "linkedin"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/Himanshuraj677",
+        "icon": "github"
+      },
+      {
+        "name": "LeetCode",
+        "url": "https://leetcode.com/u/himanshuraj6771",
+        "icon": "code"
+      }
+    ]
+  },
+  "footer": {
+    "text": "<code>const portfolio = { builtWith: ['Next.js', 'Framer Motion'], craftedBy: 'Himanshu Raj' }</code>"
+  }
+}
