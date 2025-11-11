@@ -17,8 +17,14 @@ export async function generateStaticParams() {
 }
 
 export default async function ProjectDetail({ params }: ProjectDetailProps) {
+  // React server streaming proxy: await once if necessary
+  const resolvedParams = await params
+  console.log("Rendering project detail for ID:", resolvedParams.id)
+
   const data = await getPortfolioData()
-  const project = data.projects.find((p) => p.id === params.id)
+
+  // ✅ Synchronous comparison
+  const project = data.projects.find((p) => p.id === resolvedParams.id)
 
   if (!project) {
     notFound()

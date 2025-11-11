@@ -7,7 +7,7 @@
       { "label": "View Projects", "href": "/projects" },
       {
         "label": "Download Resume",
-        "href": "https://drive.google.com/file/d/your-resume-id"
+        "href": "https://drive.google.com/file/d/1XdAWgA6ONJERLrr1NCjWhnleeF7fJFEq/view?usp=drivesdk"
       },
       { "label": "Contact Me", "href": "/contact" }
     ]
@@ -129,13 +129,6 @@
       "icon": "prisma"
     },
     {
-      "name": "Sequelize",
-      "level": 3,
-      "category": "Tools/ORM",
-      "description": "ORM for SQL databases, associations, and query optimization",
-      "icon": "sequelize"
-    },
-    {
       "name": "RabbitMQ",
       "level": 3,
       "category": "Tools/ORM",
@@ -221,10 +214,10 @@
       "techStack": [
         "React.js",
         "Next.js",
-        "Node.js",
         "PostgreSQL",
-        "Docker",
-        "Git"
+        "Prisma",
+        "Git",
+        "Tailwind CSS"
       ]
     },
     {
@@ -243,7 +236,7 @@
         "Node.js",
         "Express.js",
         "MySQL",
-        "PostgreSQL",
+        "Sequelize",
         "Tailwind CSS"
       ]
     }
@@ -265,7 +258,7 @@
       ],
       "github": "https://github.com/Himanshuraj677/blog-platform",
       "liveDemo": "https://blog.hcodes.tech/",
-      "blogPost": "https://blog.hcodes.tech/posts/blog-platform",
+      "blogPost": "https://blog.hcodes.tech/blog/cmg6cw60b0008woxpwuaez5hf",
       "image": "/projects/blog-platform.png",
       "featured": true
     },
@@ -288,6 +281,27 @@
       "blogPost": "https://blog.hcodes.tech/posts/codecatalyst",
       "image": "/projects/codecatalyst.png",
       "featured": true
+    },
+    {
+      "id": "netcrux",
+      "title": "NetCrux",
+      "description": "An open-source, secure tunneling platform to expose local servers to the internet — built as a modern alternative to Ngrok with advanced tunnel orchestration and analytics.",
+      "longDescription": "Developed NetCrux, a production-grade tunneling platform that allows developers to expose local servers securely over the internet. Implemented WebSocket-based multiplexing, automatic reconnection, and load-balanced tunnel routing for high reliability. The platform features a subscription-based model with tiered limits, real-time analytics dashboard, and a CLI for managing custom subdomains. Designed for future integration with containerized isolated tunnels for enhanced security and scalability.",
+      "skillsUsed": [
+        "Node.js",
+        "WebSocket",
+        "TypeScript",
+        "Redis",
+        "Express.js",
+        "Docker",
+        "Next.js",
+        "Nginx"
+      ],
+      "github": "https://github.com/Himanshuraj677/netcrux",
+      "liveDemo": "https://netcrux.hcodes.tech/",
+      "blogPost": "https://blog.hcodes.tech/blog/cmhnwmles000qwoxp2v3vb5fu",
+      "image": "/projects/netcrux.png",
+      "featured": true
     }
   ],
   "education": [
@@ -297,7 +311,7 @@
       "duration": "Oct 2022 – Present",
       "location": "Bengaluru, India",
       "score": "CGPA: 8.71",
-      "logo": "/education/atria.png"
+      "logo": "/education/atria.jpeg"
     },
     {
       "degree": "Intermediate (12th)",
@@ -305,7 +319,7 @@
       "duration": "2019 – 2021",
       "location": "Patna, Bihar",
       "score": "Percentage: 91.4%",
-      "logo": "/education/ekalavya.png"
+      "logo": "/education/ekalavya.jpg"
     },
     {
       "degree": "Matriculation (10th)",
@@ -313,7 +327,7 @@
       "duration": "2018 – 2019",
       "location": "Patna, Bihar",
       "score": "Percentage: 91.6%",
-      "logo": "/education/ekalavya.png"
+      "logo": "/education/ekalavya.jpg"
     }
   ],
   "contact": {
